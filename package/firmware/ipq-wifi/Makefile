@@ -50,6 +50,7 @@ ALLWIFIBOARDS:= \
 	jdcloud_re-ss-01 \
 	linksys_homewrk \
 	linksys_mr5500 \
+	linksys_mr6350 \
 	linksys_mr7350 \
 	linksys_mr7500 \
 	linksys_mx2000 \
@@ -231,6 +232,7 @@ $(eval $(call generate-ipq-wifi-package,jdcloud_re-cs-02,JDCloud RE-CS-02))
 $(eval $(call generate-ipq-wifi-package,jdcloud_re-ss-01,JDCloud RE-SS-01))
 $(eval $(call generate-ipq-wifi-package,linksys_homewrk,Linksys HomeWRK))
 $(eval $(call generate-ipq-wifi-package,linksys_mr5500,Linksys MR5500))
+$(eval $(call generate-ipq-wifi-package,linksys_mr6350,Linksys MR6350))
 $(eval $(call generate-ipq-wifi-package,linksys_mr7350,Linksys MR7350))
 $(eval $(call generate-ipq-wifi-package,linksys_mr7500,Linksys MR7500))
 $(eval $(call generate-ipq-wifi-package,linksys_mx2000,Linksys MX2000))
