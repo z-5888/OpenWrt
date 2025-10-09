@@ -93,6 +93,7 @@ platform_do_upgrade() {
 	jcg,q30-pro|\
 	jdcloud,re-cp-03|\
 	jdcloud,re-cp-03-mod|\
+	konka,komi-a31|\
 	mediatek,mt7981-rfb|\
 	mediatek,mt7988a-rfb|\
 	mercusys,mr90x-v1-ubi|\
@@ -256,6 +257,7 @@ platform_check_image() {
 	h3c,magic-nx30-pro|\
 	jcg,q30-pro|\
 	jdcloud,re-cp-03|\
+	konka,komi-a31|\
 	mediatek,mt7981-rfb|\
 	mediatek,mt7988a-rfb|\
 	mercusys,mr90x-v1-ubi|\
