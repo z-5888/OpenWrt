@@ -6,9 +6,9 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL=$(PROJECT_GIT)/project/firmware/qca-wireless.git
-PKG_SOURCE_DATE:=2025-10-09
-PKG_SOURCE_VERSION:=20e5a5a3265679c7367f2857214c3691bd75bea0
-PKG_MIRROR_HASH:=697ae289bbcff6d1c077c3086ce9bcca670728cfbc7da5b52ae1bcad838d0225
+PKG_SOURCE_DATE:=2025-10-14
+PKG_SOURCE_VERSION:=821d27b582c130ab65b7d20d0dfcbade7cdaf623
+PKG_MIRROR_HASH:=1e2959037baa5cfb24d931f9ad9b8f9a732d93810fce91a836ca7ed4d46ad7b0
 PKG_FLAGS:=nonshared
 
 include $(INCLUDE_DIR)/package.mk
@@ -31,7 +31,6 @@ ALLWIFIBOARDS:= \
 	8devices_mango \
 	alfa-network_ap120c-ax \
 	aliyun_ap8220 \
-	aliyun_scg5000 \
 	arcadyan_aw1000 \
 	asus_rt-ax89x \
 	buffalo_wxr-5950ax12 \
@@ -83,6 +82,7 @@ ALLWIFIBOARDS:= \
 	tplink_eap623od-hd-v1 \
 	tplink_eap625-outdoor-hd-v1 \
 	tplink_eap660hd-v1 \
+	tplink_archer-c59-v1 \
 	tplink_archer-c6-v2 \
 	tplink_archer-c60-v1 \
 	wallys_dr40x9 \
@@ -207,7 +207,6 @@ endef
 $(eval $(call generate-ipq-wifi-package,8devices_kiwi,8devices Kiwi))
 $(eval $(call generate-ipq-wifi-package,8devices_mango,8devices Mango))
 $(eval $(call generate-ipq-wifi-package,alfa-network_ap120c-ax,ALFA Network AP120C-AX))
-$(eval $(call generate-ipq-wifi-package,aliyun_scg5000,Aliyun SCG5000))
 $(eval $(call generate-ipq-wifi-package,aliyun_ap8220,Aliyun AP8220))
 $(eval $(call generate-ipq-wifi-package,arcadyan_aw1000,Arcadyan AW1000))
 $(eval $(call generate-ipq-wifi-package,asus_rt-ax89x,Asus RT-AX89X))
@@ -260,6 +259,7 @@ $(eval $(call generate-ipq-wifi-package,tplink_eap620hd-v1,TP-Link EAP620 HD v1)
 $(eval $(call generate-ipq-wifi-package,tplink_eap623od-hd-v1,TP-Link EAP623-Outdoor HD v1))
 $(eval $(call generate-ipq-wifi-package,tplink_eap625-outdoor-hd-v1,TP-Link EAP625-Outdoor HD v1))
 $(eval $(call generate-ipq-wifi-package,tplink_eap660hd-v1,TP-Link EAP660 HD v1))
+$(eval $(call generate-ipq-wifi-package,tplink_archer-c59-v1,TP-Link Archer C59 V1))
 $(eval $(call generate-ipq-wifi-package,tplink_archer-c6-v2,TP-Link Archer C6 V2))
 $(eval $(call generate-ipq-wifi-package,tplink_archer-c60-v1,TP-Link Archer C60 V1))
 $(eval $(call generate-ipq-wifi-package,wallys_dr40x9,Wallys DR40X9))
