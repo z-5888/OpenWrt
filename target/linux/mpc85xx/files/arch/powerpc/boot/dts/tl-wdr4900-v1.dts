@@ -437,7 +437,6 @@
 
 	gpio_export {
 			compatible = "gpio-export";
-			#size-cells = <0>;
 
 			usb-pwr {
 				gpio-export,name = "usb_pwr";
